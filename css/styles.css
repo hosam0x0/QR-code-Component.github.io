@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'ubuntu-ex';
+    src: url();
+}
+body{
+    box-sizing: border-box;
+    
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(238, 245, 255);
+}
+
+.sub-container{
+    background: white;
+    height: 450px;
+    width: 300px;
+    box-shadow: 1px 0px 100px rgba(0,0,0,0.03);
+    border-radius: 20px;
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.qr img{
+    position: relative;
+    top: 4px;
+    border-radius: 12px;
+    height: 36vh;
+    width: 17em;
+}
+
+.discription{
+    width: 85%;
+    text-align: center;
+
+    font-family: 'Outfit', sans-serif;
+    
+}
+    
+
+h1{
+    font-size: 22px;
+    font-weight: 700;
+}
+p{
+    color: hsl(0, 0%, 59%);
+}
